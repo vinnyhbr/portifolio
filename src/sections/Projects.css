@@ -1,0 +1,130 @@
+.projects {
+  background-color: var(--bg-secondary);
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 1.75rem;
+  margin: var(--spacing-xl) 0 var(--spacing-lg);
+  color: var(--text-primary);
+}
+
+.projects-featured {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.project-card-featured {
+  padding: var(--spacing-xl);
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.project-title {
+  font-size: 1.75rem;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.project-description {
+  font-size: 1.125rem;
+  line-height: 1.7;
+}
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tech-badge {
+  padding: 0.5rem 1rem;
+  background-color: var(--bg-secondary);
+  color: var(--text-secondary);
+  border-radius: var(--radius-sm);
+  font-size: 0.875rem;
+  font-weight: 500;
+  border: 1px solid var(--border-color);
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+/* Grid for other projects */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: var(--spacing-lg);
+}
+
+.project-title-small {
+  font-size: 1.25rem;
+  color: var(--text-primary);
+  margin-bottom: 0.75rem;
+}
+
+.project-description-small {
+  font-size: 1rem;
+  line-height: 1.6;
+  flex-grow: 1;
+  margin-bottom: 1rem;
+}
+
+.tech-badge-small {
+  padding: 0.25rem 0.75rem;
+  background-color: var(--bg-secondary);
+  color: var(--text-tertiary);
+  border-radius: var(--radius-sm);
+  font-size: 0.75rem;
+  font-weight: 500;
+  border: 1px solid var(--border-color);
+}
+
+.project-links-small {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.project-link {
+  color: var(--text-secondary);
+  transition: color var(--transition-fast);
+  display: flex;
+  align-items: center;
+}
+
+.project-link:hover {
+  color: var(--text-primary);
+}
+
+@media (max-width: 640px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .project-links {
+    flex-direction: column;
+  }
+  
+  .project-links .btn {
+    width: 100%;
+  }
+}
