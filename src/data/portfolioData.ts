@@ -65,7 +65,7 @@ export const projects: Project[] = [
     title: 'Sistema Corporativo AI Atende',
     description: 'Dashboard corporativo desenvolvido com Java (backend) e React (frontend), integrado ao Kommo (amoCRM). Solução full stack com integração de APIs e boas práticas de arquitetura.',
     technologies: ['Java', 'React', 'Node.js', 'API Integration', 'Kommo'],
-    githubUrl: 'https://github.com/viniciusrosa',
+    githubUrl: 'https://github.com/vinnyhbr',
     featured: true,
   },
   {
@@ -73,7 +73,7 @@ export const projects: Project[] = [
     title: 'Microserviços Horizon',
     description: 'Arquitetura de microserviços com Java 21 e Spring Boot. Implementação de REST APIs seguras com JWT, OpenFeign, Eureka e Spring Cloud Gateway. Integração com Google Maps API e deploy na Azure.',
     technologies: ['Java 21', 'Spring Boot', 'JWT', 'Microservices', 'Azure', 'Spring Cloud'],
-    githubUrl: 'https://github.com/viniciusrosa',
+    githubUrl: 'https://github.com/vinnyhbr',
     featured: true,
   },
   {
@@ -81,7 +81,7 @@ export const projects: Project[] = [
     title: 'Sistema Backend Compass UOL',
     description: 'Desenvolvimento backend com Java, Spring Boot e bancos SQL/NoSQL. Implementação de microsserviços e cloud computing na AWS com boas práticas de versionamento.',
     technologies: ['Java', 'Spring Boot', 'AWS', 'PostgreSQL', 'MongoDB', 'Microservices'],
-    githubUrl: 'https://github.com/viniciusrosa',
+    githubUrl: 'https://github.com/vinnyhbr',
   },
 ];
 
